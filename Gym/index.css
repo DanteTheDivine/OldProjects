@@ -1,0 +1,470 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: calc(100% - 10px);
+    max-width: 1600px;
+    height: calc(100% - 10px);
+    max-height: 5000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.div {
+  border:1px solid black;
+}
+.navbox:hover{
+opacity: 70%;
+}
+.scrolling-active .navbox:hover{
+
+}
+@-ms-viewport{
+  width: device-width;
+}
+.scrolling-active .cls-1{
+  fill: #FF7100;
+}
+.scrolling-active{
+  background-color: white;
+  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+  z-index: 3;
+}
+.scrolling-active  a{
+  color: black;
+}
+nav a{
+  color: white;
+  font-family:Bison;
+  
+font-size:1.7vw;
+text-decoration: none;
+margin-right: 20px;
+}
+
+nav{
+  position: fixed;
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  width: 100%;
+   height: 50px;
+}
+nav .cls-1{
+  fill:white;
+}
+
+nav svg{
+  height: 50px;
+  width: 50px;
+  fill: #F6F2F7;
+  margin-right: auto;
+  margin-left: 50px;
+}
+.Home{
+  width: 100%;
+  padding: 0;
+  height: 104vh;
+  margin: 0;
+  position: relative;
+background-color: none;
+background-image:url("Images/Slider.png");
+background-size: 100%;
+background-repeat: no-repeat;
+margin-bottom:80px;
+
+}
+
+.WhyJoinUs h3:first-child{
+  font-family: Bison;
+  font-size:3rem;
+  opacity: 85%;
+  margin-bottom: 60px;
+}
+.Fm img{
+  height:50%;
+  width: 50%;
+}
+
+.WhyJoinUs{
+  display: flex;
+  flex-flow:column wrap;
+  justify-content:space-around;
+  align-items: center;
+  width: 100%;
+ 
+}
+.reasons{
+  width: 90%;
+  display: flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 90px;
+  height: auto;
+  
+}
+.reasons1{
+ height: auto;
+ width: 100%;
+ background-color: none;
+ background-image:url("Images/b1.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ align-items: center;
+ padding: 0;
+
+ 
+}
+.stats :first-child{
+  margin: 0;
+
+}
+
+.stats{
+  height: 45vw;
+  width: 300px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Fm{
+  width:  300px;
+  height: auto;
+  display: flex;
+  flex-flow:column;
+  align-items:center ;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+
+}
+.Fm h3 {
+  font-size:2rem;
+  font-family: Bison;
+opacity: 83%;
+  margin: 0;
+}
+.Fm p{
+  font-family: Myriad Pro;
+  font-size: 1rem;
+  text-align: center;
+}
+.AboutUs{
+ 
+ background-color: red;
+ background-image: url("images/background2.png");
+ background-repeat: no-repeat;
+ background-size:cover;
+ padding: 40px;
+ display:flex ;
+ flex-flow: row wrap;
+ align-items: center;
+ justify-content: space-between;
+
+ height:auto ;
+ color:white;
+}
+.AboutUsp1{
+  width:650px;
+  height:43.2vw ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.AboutUsp2{
+  width:550px;
+  height: auto;
+ display: flex;
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+
+}
+.AboutUsp2 h3{
+  font-size:3rem;
+  font-family: Bison;
+opacity: 93%;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.AboutUsp2 p{
+  font-family: Myriad Pro;
+  font-size: 20px;
+  text-align: center;
+}
+
+.AboutUsp1 video{
+ width: 90%;
+ 
+}
+.profile.h{
+  margin-top: 20px;
+  flex-basis: 100%;
+  font-size: 3rem;
+  opacity: 80%;
+  font-family: bison;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+.profile{
+  width: 99.9%;
+  height: auto;
+  border:1px solid black;
+  background-image:url("images/background4.png");
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.trainer{
+  margin-top: 60px;
+  width: 400px;
+  height: 500px;
+  margin-bottom: 100px;
+
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("Images/pngkey.com-sexy-girls-png-641647.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px 400px;
+
+}
+.trainername {
+height: 25%;
+background-color: #FF7100;
+width: 80%;
+border-radius: 40px;
+position: relative;
+top: 70px;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+color:white;
+font-family: bison;
+font-size: 1.5rem;
+}
+
+.traineroverlay h3{
+  color: #FF7100;
+  font-family: bison;
+  font-size: 3rem;
+  opacity: 100% ;
+  margin-bottom: 20px;
+  visibility: hidden ;
+}
+
+.traineroverlay ul li{
+  color: white;
+  font-family: bison;
+  font-size: 1.5rem;
+  visibility: hidden ;
+
+}
+.trainername p:first-child{
+  font-size: 2rem;
+  
+}
+.trainername p:nth-child(2){
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100px;
+}
+.traineroverlay{
+  width: 0;
+  height: 500px;
+  position:absolute;
+  background-color: black;
+  opacity: 80%;
+  transition: background-size, .5s ease;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #F5F5F5;
+  font-size: 1rem;
+  
+}
+.traineroverlay ul li{
+visibility: hidden;
+}
+.prieces{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.pricesbackground{
+width: 1000px;
+height: 700px;
+background-image: url("images/background7.png");
+background-size:cover;
+background-color: black;
+}
+.pricesp1{
+  width: 350px;
+  height: 700px;
+  display: flex;
+  flex-flow: column;
+  justify-content:flex-start;
+  align-items: center;
+  background-image: url("images/background6.png");
+  background-size:cover;
+
+}
+.Conntact{
+  width: 99%;
+  height: auto;
+  display: flex;
+  flex-flow:column;
+  align-items:center;
+  justify-content:space-around;
+  margin-bottom: 20px;
+}
+footer a{
+  margin-right: 20px;
+}
+footer{
+  background-color: #FF7100;
+  width: 100%;
+  height: 60px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100px;
+  
+}
+
+.pricesp1 h3{
+  color: white;
+  font-size: 5rem;
+  font-family: bison;
+  margin: 0;
+}
+.pricesp1 h3:hover{
+  transform: scale(1.1); 
+cursor: pointer;
+
+}
+.pricesp1 p{
+  font-family: bison;
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 25px;
+
+}
+.pricesp1 h3:first-child{
+  margin-bottom: 20px;
+
+  font-size: 4rem;
+}
+.svgcontact svg{
+height:500PX;
+width: 100%;
+
+}
+.email form{
+  width: 500px;
+  height: 400px;
+  flex-shrink: 2;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items:center;
+}
+.email{
+  width: 99%;
+  display: flex ;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.email form textarea{
+ height: 50%;
+ width: 90%;
+ background-color: #F6F2F7;
+ border: none;
+ font-size: 18px;
+
+}
+.email form input:nth-child(2),input:nth-child(1){
+  height: 9%;
+  width: 90%;
+  background-color: #F6F2F7;
+  border: none;
+  font-size: 18px;
+
+ }
+ .email form input:last-child{
+  align-self: baseline;
+  color:white;
+  background-color: #FF7100;
+  border: none;
+  font-family: bison;
+  margin-left: 50px;
+  height: 40px;
+  width: 90px;
+  font-size: 20px;
+ }
+ .email form input:last-child:hover{
+opacity: 80%;
+}
+.Conntact h3{
+margin-top: 40px;
+margin-bottom: 20px;
+  font-family: bison;
+    font-size: 3.5rem;
+  opacity: 83%;
+ 
+
+
+}
+.Conntact .cls-1{
+  fill:#FF7100;
+}
+.svgcontact{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.svgcontact p{
+ color: black;
+ position: absolute;
+ font-size: 1.2rem;
+}
+.svgcontact p:first-of-type{
+  margin-top: 60px;
+  color: black;
+  position: absolute;
+ }

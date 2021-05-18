@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bison';
+    src: url('Bison-Bold.woff2') format('woff2'),
+        url('Bison-Bold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

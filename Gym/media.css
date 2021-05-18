@@ -1,0 +1,42 @@
+@media screen and (max-width:800px){
+    .Home{
+        height: 39vh;
+        background-size: 200% 100%;
+        
+    }
+    .prieces{
+        font-size: 30px;
+
+      }
+      .pricesbackground{
+      
+      display: none;
+      }
+      .pricesp1{
+        width: 100%;
+        height: 600px;
+      }
+      nav{
+          background-color: white;
+         height: 30px;
+      }
+      nav a{
+        color: black;
+        font-size: 0.7rem;
+      }
+      nav .cls-1{
+        fill: #FF7100;     
+}
+nav svg{
+    height: 30px;
+    width: 30px;
+}
+.svgcontact p{
+  color: black;
+  position: absolute;
+  font-size: 0.8rem;
+ }
+  .reasons1{
+    margin-right: 40px;
+  } 
+}
